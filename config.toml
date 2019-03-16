@@ -1,0 +1,5 @@
+baseURL = "http://jcornwall.com/"
+disableHugoGeneratorInject = true
+disableKinds = ["sitemap", "taxonomy", "taxonomyTerm"]
+enableGitInfo = true
+pygmentsUseClasses = true

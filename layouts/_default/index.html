@@ -1,11 +1,5 @@
 {{ partial "header.html" . }}
-<h1>Recent posts</h1>
-<table id="posts">
-  {{ range (where .Pages "Section" "posts" )}}
-  <tr>
-    <td>{{ .Lastmod.Format "2006-01-02" }}</td>
-    <td><a href="{{ .Permalink }}">{{ .Title }}</a></td>
-  </tr>
-  {{ end }}
-</table>
+<p>
+  Check out my retro computing website <a href="https://amigageek.com/">amigageek.com</a>!
+</p>
 {{ partial "footer.html" . }}
